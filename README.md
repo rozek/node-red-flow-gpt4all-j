@@ -10,6 +10,13 @@ Having the actual inference as a self-contained function node gives you the poss
 
 > Nota bene: these flows do not contain the actual model. You will have to [download your own copy](https://gpt4all.io/models/ggml-gpt4all-j.bin) directly from the link given in the docs for GPT4All-J.
 
+If you like, you may also check out similar nodes and flows for other AI models as there are
+
+* [Meta AI LLaMA](https://github.com/rozek/node-red-flow-llama)
+* [Stanford Alpaca](https://github.com/rozek/node-red-flow-alpaca)
+* [Nomic AI GPT4All (filtered version)](https://github.com/rozek/node-red-flow-gpt4all-filtered)
+* [Nomic AI GPT4All (unfiltered version)](https://github.com/rozek/node-red-flow-gpt4all-unfiltered)
+
 > Just a small note: if you like this work and plan to use it, consider "starring" this repository (you will find the "Star" button on the top right of this page), so that I know which of my repositories to take most care of.
 
 ## Installation ##
