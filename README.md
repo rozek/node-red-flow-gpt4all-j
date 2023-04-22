@@ -2,7 +2,7 @@
 
 Node-RED Flow (and web page example) for the GPT4All-J AI model
 
-This repository contains a function node for [Node-RED](https://nodered.org/) which can be used to run the [GPT4All-J model](https://static.nomic.ai/gpt4all/2023_GPT4All-J_Technical_Report_2.pdf) using the [official GPT4All-J Chat Interface](https://github.com/nomic-ai/gpt4all-chat) within a Node-RED flow. **Inference is done on the CPU** (without requiring any special harware) and still completes within a few seconds on a reasonably powerful computer.
+This repository contains a function node for [Node-RED](https://nodered.org/) which can be used to run the [GPT4All-J model](https://static.nomic.ai/gpt4all/2023_GPT4All-J_Technical_Report_2.pdf) using the [official GPT4All-J Chat Interface](https://github.com/nomic-ai/gpt4all-chat) within a Node-RED flow. **Inference is done on the CPU** (without requiring any special hardware) and still completes within a few seconds on a reasonably powerful computer.
 
 ![GPT4All-J HTTP Flow](./GPT4All-J-HTTP-Flow.png)
 
