@@ -27,7 +27,7 @@ Then, create another subfolder called `ai` within the installation folder of you
 
 ### Building the Executable ###
 
-The actual "heavy lifting" is done by [GPT4All-J Chat Interface](https://github.com/nomic-ai/gpt4all-chat). Simply follow the instructions found in section [Building and running CLI tools only (no Qt required)](https://github.com/nomic-ai/gpt4all-chat#building-and-running-cli-tools-only-no-qt-required) of the docs for the chat interface to build the `chat` executable for your platform.
+The actual "heavy lifting" is done by the [GPT4All-J Chat Interface](https://github.com/nomic-ai/gpt4all-chat). Simply follow the instructions found in section [Building and running CLI tools only (no Qt required)](https://github.com/nomic-ai/gpt4all-chat#building-and-running-cli-tools-only-no-qt-required) of the docs for the chat interface to build the `chat` executable for your platform.
 
 Afterwards, rename `chat` to `gpt-j` and copy it into the subfolder `ai` you created before.
 
