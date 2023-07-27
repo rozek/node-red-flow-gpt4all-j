@@ -2,6 +2,8 @@
 
 Node-RED Flow (and web page example) for the GPT4All-J AI model
 
+> Nota bene: if you are interested in serving LLMs from a Node-RED server, you may also be interested in [node-red-flow-openai-api](https://github.com/rozek/node-red-flow-openai-api), a set of flows which implement a relevant subset of OpenAI APIs and may act as a drop-in replacement for OpenAI in [LangChain](https://github.com/hwchase17/langchainjs) or similar tools and may directly be used from within [Flowise](https://github.com/rozek/Flowise), the no-code environment for LangChain
+
 This repository contains a function node for [Node-RED](https://nodered.org/) which can be used to run the [GPT4All-J model](https://static.nomic.ai/gpt4all/2023_GPT4All-J_Technical_Report_2.pdf) using the [official GPT4All-J Chat Interface](https://github.com/nomic-ai/gpt4all-chat) within a Node-RED flow. **Inference is done on the CPU** (without requiring any special hardware) and still completes within a few seconds on a reasonably powerful computer.
 
 ![GPT4All-J HTTP Flow](./GPT4All-J-HTTP-Flow.png)
